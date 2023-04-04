@@ -1,0 +1,6 @@
+node_modules
+.svelte-kit
+src-tauri/target
+.github
+notes.md
+pnpm-lock.yaml

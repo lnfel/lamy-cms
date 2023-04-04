@@ -1,0 +1,33 @@
+{
+	"plugins": ["prettier-plugin-svelte"],
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"overrides": [
+		{
+			"files": ".prettierrc",
+			"options": { "parser": "json" }
+		},
+		{
+			"files": ["*.js", "*.ts"],
+			"options": {
+				"semi": false
+			}
+		},
+		{
+			"files": ["*.svelte"],
+			"options": {
+				"bracketSameLine": false
+			}
+		},
+		{
+			"files": ["README.md", "CONTRIBUTING.md"],
+			"options": {
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		}
+	]
+}
