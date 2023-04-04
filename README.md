@@ -15,6 +15,14 @@
 
 Lamy CMS is a cross-platform desktop app for managing website content powered by [SvelteKit](https://kit.svelte.dev/) and [Tauri](https://tauri.app/).
 
+## Getting Started
+
+TODO
+
+## Documentation
+
+TODO
+
 ## Development environment setup
 
 Lamy CMS is built using [Tauri](https://tauri.app/). The first step is to install Rust and system dependencies.
