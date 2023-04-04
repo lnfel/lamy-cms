@@ -7,14 +7,14 @@ Make sure you have done the development environment setup. If not please read th
 1. [Fork](https://github.com/lnfel/lamy-cms/fork) the repo.
 2. Clone the fork.
 
-```s
+```sh
 git clone https://github.com/your-username/lamy-cms.git
 cd lamy-cms
 ```
 
 3. Do not make the changes on the main branch, please create another branch based on main. Then make the pull request using the branch you have created with the changes on it.
 
-```s
+```sh
 git checkout -b your-branch-name main
 ```
 
@@ -22,16 +22,17 @@ It is recommended to name your feature branch based on what changes you are goin
 
 4. This project uses pnpm by default but you are free to use npm for managing dependencies.
 
-```s
+```sh
 # Install dependencies using pnpm
 pnpm install
 # or npm
-npm install
+# --legacy-peer-deps is required since packages from twind has typescript below version 5 as dependency
+npm install --legacy-peer-deps
 ```
 
 You can run the dev server by using either of the following:
 
-```s
+```sh
 # npm
 npm run tauri dev
 # pnpm
