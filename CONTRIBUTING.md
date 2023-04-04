@@ -18,7 +18,9 @@ cd lamy-cms
 git checkout -b your-branch-name main
 ```
 
-It is recommended to name your feature branch based on what changes you are going to make. Otherwise, make sure to have a summary of what is changed when doing a pull request. 4. This project uses pnpm by default but you are free to use npm for managing dependencies.
+It is recommended to name your feature branch based on what changes you are going to make. Otherwise, make sure to have a summary of what is changed when doing a pull request.
+
+4. This project uses pnpm by default but you are free to use npm for managing dependencies.
 
 ```s
 # Install dependencies using pnpm
